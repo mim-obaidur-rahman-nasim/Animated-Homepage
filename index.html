@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="text-gray-100 font-[Poppins]">
+
+    <nav class="fixed top-0 left-0 w-full py-4 md:py-6">
+        <div class="container mx-auto flex justify-between">
+            <img src="./img/package.png" class="h-8 animate-bounce">
+            <ul class="text-xs md:text-sm tracking-wide items-center flex gap-x-4 md:gap-x-8">
+                <li class="hover:scale-125 duration-300 py-1 hover:text-teal-400">
+                    <a class="cursor-pointer">Home</a>
+                </li>
+                <li class="hover:scale-125 duration-300 py-1 hover:text-teal-400">
+                    <a class="cursor-pointer">Product</a>
+                </li>
+                <li class="hover:scale-125 duration-300 py-1 hover:text-teal-400">
+                    <a class="cursor-pointer">About us</a>
+                </li>
+                <li class="hover:scale-125 duration-300 py-1 hover:text-teal-400">
+                    <a class="cursor-pointer">Contact</a>
+                </li>
+                <button class="bg-teal-600 px-4 md:px-7 py-2 md:py-3 rounded-full text-xs tracking-wide hover:scale-110 duration-300">
+                    GET STARTED
+                </button>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="bg-[#23304c] flex flex-col md:flex-row px-4 md:px-[10%] py-4 md:py-[6%]">
+        <img src="./img/Ellipse.png" class="z-20 animate-ping w-6 absolute left-24 top-56" />
+        <img src="./img/Ellipse.png" class="z-20 animate-ping w-6 absolute right-96 top-36" />
+        <img src="./img/Ellipse.png" class="z-20 animate-ping w-6 absolute left-64 bottom-24" />
+        <img src="./img/Ellipse.png" class="z-20 animate-ping w-6 absolute right-40 top-64" />
+
+        <img src="./img/wave3.png" class="w-3/4 md:w-96 absolute bottom-20 right-36" />
+        <img src="./img/wave.png" class="absolute z-20 bottom-0 right-0 w-2/3" />
+
+        <div class="flex-1 mb-4 md:mb-0">
+            <img src="./img/loading.png" class="w-3/4 md:w-9/12" />
+        </div>
+
+        <div class="flex-1 text-xl md:text-3xl leading-normal py-4 md:py-6">
+            <div class="absolute">
+                <h1>
+                    Build visual <br />
+                    tracking systems <br />
+                    for your
+                    <span class="underline decoration-teal-500">customers</span>
+                </h1>
+                <button class="bg-teal-600 px-4 md:px-7 py-2 md:py-3 rounded-full text-xs tracking-wide hover:scale-110 duration-300">
+                    GET STARTED
+                </button>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
